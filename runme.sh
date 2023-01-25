@@ -51,7 +51,7 @@ fi
 # Misc
 ###############################################################################
 
-RELEASE=${RELEASE:-v5.15}
+RELEASE=${RELEASE:-v6.1.8}
 DPDK_RELEASE=${DPDK_RELEASE:-v22.07}
 
 SHALLOW=${SHALLOW:true}

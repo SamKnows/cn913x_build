@@ -1,7 +1,7 @@
-From 8e3b2fd3cfbb1a61d73f2abf3e11a8b4c6e8039d Mon Sep 17 00:00:00 2001
+From 68a896c7361a50eba6b5db72a30acbc1bc91d688 Mon Sep 17 00:00:00 2001
 From: Alon Rotman <alon.rotman@solid-run.com>
 Date: Wed, 20 Jan 2021 16:36:21 +0200
-Subject: [PATCH] dts: update device trees to cn913x rev 1.1
+Subject: [PATCH 03/18] dts: update device trees to cn913x rev 1.1
 
 Signed-off-by: Alon Rotman <alon.rotman@solid-run.com>
 ---
@@ -456,5 +456,5 @@ index 35c17d4f4241..45958b67aa29 100644
  
  		cp2_i2c1_pins: cp2-i2c-pins-1 {
 -- 
-2.25.1
+2.34.1
 

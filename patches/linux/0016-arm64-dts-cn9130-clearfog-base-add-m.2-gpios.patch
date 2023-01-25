@@ -1,7 +1,7 @@
-From 5b1d2eb079e22b81790cad6a83f896902fee3244 Mon Sep 17 00:00:00 2001
+From 7dd49b4950432895d6e3de2d76d9f39c92386baf Mon Sep 17 00:00:00 2001
 From: Josua Mayer <josua@solid-run.com>
 Date: Wed, 7 Dec 2022 17:38:17 +0200
-Subject: [PATCH] arm64: dts: cn9130-clearfog-base: add m.2 gpios
+Subject: [PATCH 16/18] arm64: dts: cn9130-clearfog-base: add m.2 gpios
 
 Signed-off-by: Josua Mayer <josua@solid-run.com>
 ---
@@ -64,5 +64,5 @@ index b04e0d0bd6ee..814511007bd7 100644
  			gpio-hog;
  			gpios = <11 GPIO_ACTIVE_HIGH>;
 -- 
-2.37.3
+2.34.1
 

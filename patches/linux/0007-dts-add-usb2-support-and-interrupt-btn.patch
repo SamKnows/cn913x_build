@@ -1,7 +1,7 @@
-From ee65accc5749b6f7bfe723f8aba5cf517166dea3 Mon Sep 17 00:00:00 2001
+From d48cebe3dafa2b82c60bd4b48e825055965c3f63 Mon Sep 17 00:00:00 2001
 From: Alon Rotman <alon.rotman@solid-run.com>
 Date: Mon, 6 Dec 2021 18:33:17 +0200
-Subject: [PATCH] dts: add usb2 support and interrupt btn
+Subject: [PATCH 07/18] dts: add usb2 support and interrupt btn
 
 Signed-off-by: Alon Rotman <alon.rotman@solid-run.com>
 ---
@@ -126,5 +126,5 @@ index bede63d244e2..54068d75542a 100644
  };
  
 -- 
-2.25.1
+2.34.1
 

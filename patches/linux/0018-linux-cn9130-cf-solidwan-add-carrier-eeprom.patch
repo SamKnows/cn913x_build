@@ -1,7 +1,7 @@
-From c9abdf9f93884460ae4a44a0a657ae7521b2e845 Mon Sep 17 00:00:00 2001
+From 88b04f7dee09799a12a755b2d6e50c37e75681fd Mon Sep 17 00:00:00 2001
 From: Kareiman Fadly <kareiman.fadly@solid-run.com>
 Date: Sun, 22 Jan 2023 14:57:03 +0200
-Subject: [PATCH] linux: cn9130-cf-solidwan : add carrier eeprom
+Subject: [PATCH 18/18] linux: cn9130-cf-solidwan : add carrier eeprom
 
 ---
  arch/arm64/boot/dts/marvell/cn9130-cf-solidwan.dts | 5 +++++
@@ -24,5 +24,5 @@ index e47a767964e4..27dc9b27199e 100644
  
  /* I2C Master */
 -- 
-2.39.0
+2.34.1
 

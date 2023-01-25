@@ -1,7 +1,7 @@
-From 98a5b72d70d6772263f919154fa739ac776d85f9 Mon Sep 17 00:00:00 2001
+From cac6bfce988c822a173d89b9a2059caec11dfef5 Mon Sep 17 00:00:00 2001
 From: Alon Rotman <alon.rotman@solid-run.com>
 Date: Wed, 27 Jan 2021 17:13:57 +0200
-Subject: [PATCH] DTS: update cn9130 device tree
+Subject: [PATCH 04/18] DTS: update cn9130 device tree
 
 Signed-off-by: Alon Rotman <alon.rotman@solid-run.com>
 ---
@@ -30,5 +30,5 @@ index 66be2e22040e..11dc8c323c3a 100644
  	vqmmc-supply = <&v_3_3>;
  	vmmc-supply = <&v_3_3>;
 -- 
-2.25.1
+2.34.1
 

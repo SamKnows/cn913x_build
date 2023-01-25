@@ -1,7 +1,7 @@
-From f05670f2be89726622db0f9d7bf2cba891332b2e Mon Sep 17 00:00:00 2001
+From 0ea394f4a866787af83dbbef7425b3990041cba9 Mon Sep 17 00:00:00 2001
 From: Alon Rotman <alon.rotman@solid-run.com>
 Date: Mon, 22 Nov 2021 13:37:46 +0200
-Subject: [PATCH] dts cn9130 som for clearfog base and pro
+Subject: [PATCH 06/18] dts cn9130 som for clearfog base and pro
 
 ---
  arch/arm64/boot/dts/marvell/Makefile          |   2 +
@@ -12,10 +12,10 @@ Subject: [PATCH] dts cn9130 som for clearfog base and pro
  create mode 100644 arch/arm64/boot/dts/marvell/cn9130-cf-pro.dts
 
 diff --git a/arch/arm64/boot/dts/marvell/Makefile b/arch/arm64/boot/dts/marvell/Makefile
-index fef06b676881..3597c985fc92 100644
+index 6a25158750ec..6be1566eb45f 100644
 --- a/arch/arm64/boot/dts/marvell/Makefile
 +++ b/arch/arm64/boot/dts/marvell/Makefile
-@@ -19,3 +19,5 @@ dtb-$(CONFIG_ARCH_MVEBU) += cn9132-db.dtb
+@@ -29,3 +29,5 @@ dtb-$(CONFIG_ARCH_MVEBU) += ac5-98dx35xx-rd.dtb
  dtb-$(CONFIG_ARCH_MVEBU) += cn9130-cex7.dtb
  dtb-$(CONFIG_ARCH_MVEBU) += cn9131-cex7.dtb
  dtb-$(CONFIG_ARCH_MVEBU) += cn9132-cex7.dtb
@@ -847,5 +847,5 @@ index 000000000000..bede63d244e2
 +
 +
 -- 
-2.25.1
+2.34.1
 
